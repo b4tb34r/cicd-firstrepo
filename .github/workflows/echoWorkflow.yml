@@ -3,7 +3,7 @@ name: Echo Current Date
 on:
   push:        # Runs on every push
     branches:
-      - 'main'   # Only on main branch
+      - 'master'   # Only on main branch
 
 jobs:
   echo-date:
